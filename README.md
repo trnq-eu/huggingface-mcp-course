@@ -28,8 +28,9 @@ source .venv/bin/activate
 
 uv pip install "mcp[cli]"
 
+mcp dev server.py
+
 uv pip install "huggingface_hub[mcp]>=0.32.0"
 
-huggingface-cli login
-
+tiny-agents run agent.json
 ```
