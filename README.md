@@ -3,7 +3,7 @@
 
 ## Progress 
 
-- [ ] Unit 1
+- [x] Unit 1
     - [x] https://huggingface.co/learn/mcp-course/unit1/introduction
     - [x] https://huggingface.co/learn/mcp-course/unit1/key-concepts
     - [x] https://huggingface.co/learn/mcp-course/unit1/architectural-components
@@ -16,6 +16,26 @@
     - [x] https://huggingface.co/learn/mcp-course/unit1/gradio-mcp
     - [x] https://huggingface.co/learn/mcp-course/unit1/unit1-recap
     - [x] https://huggingface.co/learn/mcp-course/unit1/certificate
+
+- [ ] Unit 2
+
+    - [ ] /learn/mcp-course/unit2/introduction: Introduction to Building an MCP Application 
+    - [ ] /learn/mcp-course/unit2/gradio-server: Building the Gradio MCP Server 
+    - [ ] /learn/mcp-course/unit2/clients: Using MCP Clients with your application
+    - [ ] /learn/mcp-course/unit2/continue-client: Using MCP in the Your AI Coding Assistant 
+    - [ ] /learn/mcp-course/unit2/gradio-client: Building an MCP Client with Gradio
+    - [ ] /learn/mcp-course/unit2/tiny-agents: Building Tiny Agents with MCP and the Hugging Face Hub
+    - [ ] /learn/mcp-course/unit2/lemonade-server: Local Tiny Agents with AMD NPU and iGPU Acceleration
+
+ - [ ] Unit 3
+    - [ ] /learn/mcp-course/unit3_1/introduction: Build a Pull Request Agent on the Hugging Face Hub
+    - [ ] /learn/mcp-course/unit3_1/setting-up-the-project: Setting up the Project
+    - [ ] /learn/mcp-course/unit3_1/creating-the-mcp-server: Creating the MCP Server
+    - [ ] /learn/mcp-course/unit3_1/quiz1: Quiz 1 - MCP Server Implementation
+    - [ ] /learn/mcp-course/unit3_1/mcp-client: MCP Client
+    - [ ] /learn/mcp-course/unit3_1/webhook-listener: Webhook Listener
+    - [ ] /learn/mcp-course/unit3_1/quiz2: Quiz 2 - Pull Request Agent Integration
+    - [ ] /learn/mcp-course/unit3_1/conclusion: Conclusion
 
 ## Unit 1
 
