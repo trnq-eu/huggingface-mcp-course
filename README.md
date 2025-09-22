@@ -59,3 +59,31 @@ tiny-agents run agent.json
 demo.launch(mcp_server=True)
 
 ```
+
+## Unit 2
+
+Configuring Gemini CLI for MCP
+
+```
+cd ~
+cd .gemini
+settings.json
+
+"mcpServers": {
+    "math" : {
+      "command": "node",
+      "args": ["/home/stefano/Documents/Progetti/gemini-cli-mcp/index.js"]
+    },
+    "sentiment-analysis": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://huggingface.co/spaces/trnq-eu/gradio-sentiment-analysis",
+        "--transport",
+        "sse-only"
+      ]
+    }
+  }
+
+```
