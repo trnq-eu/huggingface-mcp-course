@@ -21,7 +21,7 @@
 
     - [x] /learn/mcp-course/unit2/introduction: Introduction to Building an MCP Application 
     - [x] /learn/mcp-course/unit2/gradio-server: Building the Gradio MCP Server 
-    - [ ] /learn/mcp-course/unit2/clients: Using MCP Clients with your application
+    - [x] /learn/mcp-course/unit2/clients: Using MCP Clients with your application
     - [ ] /learn/mcp-course/unit2/continue-client: Using MCP in the Your AI Coding Assistant 
     - [ ] /learn/mcp-course/unit2/gradio-client: Building an MCP Client with Gradio
     - [ ] /learn/mcp-course/unit2/tiny-agents: Building Tiny Agents with MCP and the Hugging Face Hub
