@@ -69,21 +69,40 @@ cd ~
 cd .gemini
 settings.json
 
-"mcpServers": {
-    "math" : {
+{
+  "ide": {
+    "hasSeenNudge": true,
+    "enabled": true
+  },
+  "mcpServers": {
+    "math": {
       "command": "node",
-      "args": ["/home/stefano/Documents/Progetti/gemini-cli-mcp/index.js"]
+      "args": [
+        "/home/stefano/Documents/Progetti/gemini-cli-mcp/index.js"
+      ]
     },
     "sentiment-analysis": {
       "command": "npx",
       "args": [
-        "-y",
         "mcp-remote",
-        "https://huggingface.co/spaces/trnq-eu/gradio-sentiment-analysis",
-        "--transport",
-        "sse-only"
+        "http://127.0.0.1:7860/gradio_api/mcp/sse"
       ]
+    },
+    "browser-search": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
     }
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "ui": {
+    "theme": "Default"
   }
+}
 
 ```
+
+npm install @playwright/mcp per installare l'mcp di Playwright
